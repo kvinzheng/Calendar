@@ -1,0 +1,78 @@
+.CalendarHeader {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0 1.1rem 0;
+}
+
+.CalendarHeader-button span {
+  display: inline-block;
+  padding: 12px
+}
+.CalendarHeader-create-icon {
+  display:inline-block;
+  margin: 10px 0px 10px 10px;
+}
+.CalendarHeader-button {
+  margin: 0 0.2rem 0 0.2rem;
+  padding: 0;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 20px;
+  background-color: white;
+  color: #3c4043;;
+  font-weight: bold;
+  border: 1px grey solid;
+  transition: background-color 0.3s;
+}
+.CalendarHeader-button-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CalendarHeader-button:hover,
+.CalendarHeader-button:focus {
+  background-color: #D3D3D3;
+  cursor: pointer;
+}
+
+.CalendarHeader-button-today {
+  background-color: #359ee1;
+}
+
+.CalendarHeader-title {
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28px;  
+  color: #3c4043;;
+  text-align: left;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.CalendarEventList-content {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  width: 100%;
+}
+
+.CalendarHeader-zoom:hover{ 
+  cursor: pointer;
+  transform: scale(1.5);
+
+}
+.CalendarHeader-zoom{
+  margin: 0 5px;
+  transition: transform .2s; /* Animation */
+}
+
+.CalendarHeader-right-portion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

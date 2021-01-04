@@ -1,0 +1,4 @@
+export const SET_EVENTS = "SET_EVENTS";
+export const SET_CALENDAR_FORM = "SET_CALENDAR_FORM";
+export const SET_EDITABLE_EVENT = "SET_EDITABLE_EVENT";
+export const SET_ZOOM_WIDTH = "SET_ZOOM_WIDTH";

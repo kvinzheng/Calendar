@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalendarEvent should render with data defined 1`] = `ShallowWrapper {}`;

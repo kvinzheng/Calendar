@@ -1,0 +1,149 @@
+.CalendarForm {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.CalendarForm-start-time {
+  outline: none;
+  border: 1px solid #2f87be;
+  border-radius: 4px;
+  padding: 1rem 1rem;
+  margin-bottom: 1.6rem;
+  font-size: 17px;
+  margin-right: 2rem;
+  color: #757575;
+}
+
+.CalendarForm-required {
+  border: 1px solid #c53c48;
+}
+
+.CalendarForm-input {
+  outline: none;
+  border: 1px solid #2f87be;
+  border-radius: 15px;
+  padding: 1rem 1rem;
+  margin-bottom: 1.6rem;
+  font-size: 15px;
+  width: 100%;
+  resize: none;
+}
+
+.CalendarForm-input-start,.CalendarForm-input-end{
+  width:85%
+}
+
+.CalendarForm-input-datetime{
+  display: inline-block;
+  width: 50%;
+}
+.CalendarForm-input-datetime-label {
+  width: 13%;
+  display: inline-block;
+  text-align: center;
+}
+
+.CalendarForm-content {
+  background-color: #ffffff;
+  padding: 15px 20px; 
+  border-radius: 15px;
+  width: 50%;
+  min-width: 30rem;
+  box-shadow: 1px 1px 5px #535050;
+}
+
+.CalendarForm-button span {
+  display: block;
+  padding: 12px 24px;
+}
+
+.CalendarForm-bottom {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.CalendarForm-button {
+  margin: 0 0.2rem 0 0.2rem;
+  padding: 0;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 3px;
+  background-color: #2f87be;
+  color: #ecf0f1;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.CalendarForm-button:hover,
+.CalendarForm-button:focus {
+  background-color: #306180;
+}
+
+.CalendarForm-button-cancel {
+  background-color: rgba(236, 240, 241, 0.3);
+}
+
+
+
+
+.CalendarForm-button-add {
+  background-color: #2f87be;
+}
+
+.CalendarForm-button-add:hover,
+.CalendarForm-button-add:focus {
+  background-color: #2f87be;
+  cursor: pointer;
+}
+
+.CalendarForm-button-del {
+  background: none;
+  border: 1px solid #555353;
+  color: #555353;
+  cursor: pointer;
+}
+
+.CalendarForm-button-cancel {
+  background: none;
+  color: #555353;
+  cursor: pointer;
+}
+
+.CalendarForm-button-cancel:hover {
+  background: none;
+  background-color: transparent;  
+  color: #555353;
+  cursor: pointer;
+}
+
+.CalendarForm-button-del:hover,
+.CalendarForm-button-del:focus {
+  background-color: #97242c;
+  color: white;
+  border: 1px solid #97242c;
+}
+
+.CalendarForm-button:disabled {
+  background: #a8a8a8;
+  border: 1px solid #a8a8a8;
+  cursor: default;
+}
+
+.CalendarForm-input-required {
+  border: 1px solid #c53c48;
+}
+
+.CalendarForm-content-top {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 10px;
+}

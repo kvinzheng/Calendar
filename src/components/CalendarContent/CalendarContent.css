@@ -1,0 +1,25 @@
+.CalendarContent {
+  display: grid;
+  grid-template-columns: repeat(35, 1fr);
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.CalendarContent-week {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 10px 0px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.CalendarContent-outlined {
+  background: #ffffe5;
+}
+
+.CalendarContent-extra {
+  background: #f7f7f7;
+  color: rgb(201, 201, 201);
+}

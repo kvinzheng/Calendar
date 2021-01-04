@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalendarContent should render with data defined 1`] = `ShallowWrapper {}`;
+
+exports[`CalendarContent should render without any data defined 1`] = `ShallowWrapper {}`;

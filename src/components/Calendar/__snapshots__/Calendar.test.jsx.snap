@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calendar Component should render with props passed in 1`] = `ShallowWrapper {}`;
+
+exports[`Calendar Component should render without any data defined 1`] = `ShallowWrapper {}`;
