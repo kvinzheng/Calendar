@@ -49,3 +49,6 @@ note: This is a basic ada compliance requirement. There isn't ada compliance for
     - I wrote a function to sort out positions using function calculatePosition from helper/eventTimeline
     - I use redux since it will be easy for state management
     - I calculated the days' difference and apply to the new day by doing ```javascript ${zoomWidth * (diff)}px ``` when I move the event to a new line
+
+## To Do ##
+   - Improve Drag and Drop for moving event across the calendar
